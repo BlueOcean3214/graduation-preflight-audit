@@ -41,7 +41,7 @@ For the three new-data run directories, `plan.json` fixes the schedule. The thre
 
 ## Verify integrity
 
-Line endings are pinned to LF via `.gitattributes`, so the manifest matches byte-for-byte on any platform.
+`.gitattributes` disables EOL conversion, so every file is stored and checked out byte-for-byte and the manifest matches on any platform.
 
 ```powershell
 Get-Content MANIFEST.sha256 | ForEach-Object {

@@ -1,2 +1,2 @@
-# Keep byte-exact checkouts so MANIFEST.sha256 matches on every platform.
-* text=auto eol=lf
+# Preserve bytes exactly (no EOL conversion), so MANIFEST.sha256 matches on every platform.
+* -text
