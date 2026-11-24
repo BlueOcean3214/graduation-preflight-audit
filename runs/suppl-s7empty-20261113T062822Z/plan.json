@@ -1,0 +1,67 @@
+{
+  "algorithm_version": "sha256-block-order-v1",
+  "block_unit": "sample",
+  "blocks": [
+    {
+      "sample_id": "S7-empty",
+      "tasks": [
+        {
+          "b0_sample_override": false,
+          "group": "D",
+          "kind": "supplementary",
+          "plan_seq": 0,
+          "repeat_index": 0,
+          "round_index": 0,
+          "sample_selection": "explicit"
+        },
+        {
+          "b0_sample_override": false,
+          "group": "D",
+          "kind": "supplementary",
+          "plan_seq": 1,
+          "repeat_index": 1,
+          "round_index": 1,
+          "sample_selection": "explicit"
+        },
+        {
+          "b0_sample_override": false,
+          "group": "D",
+          "kind": "supplementary",
+          "plan_seq": 2,
+          "repeat_index": 2,
+          "round_index": 2,
+          "sample_selection": "explicit"
+        },
+        {
+          "b0_sample_override": false,
+          "group": "D",
+          "kind": "supplementary",
+          "plan_seq": 3,
+          "repeat_index": 3,
+          "round_index": 3,
+          "sample_selection": "explicit"
+        },
+        {
+          "b0_sample_override": false,
+          "group": "D",
+          "kind": "supplementary",
+          "plan_seq": 4,
+          "repeat_index": 4,
+          "round_index": 4,
+          "sample_selection": "explicit"
+        }
+      ]
+    }
+  ],
+  "config_sha256": "b33bd1ac4ca16ffd7a2ad9c8d256b4842454f3c6d5a5268a04df50255d05c256",
+  "created_at": "2026-11-13T14:28:22+08:00",
+  "experiment_id": "graduation-memory-ablation@20261112T210000@suppl-s7empty-20261113T062822Z",
+  "plan_sha256": "a51d8a7ec418f71adfe50b8b9b6fc43ff28a23f5b411e38a62b28c8840eb3ffd",
+  "round_count": 5,
+  "sample_order": [
+    "S7-empty"
+  ],
+  "schema_version": 1,
+  "scheme": "five_round_randomized_block_v1",
+  "seed": 20261113
+}
